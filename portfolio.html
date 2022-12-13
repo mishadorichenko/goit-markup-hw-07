@@ -21,7 +21,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
 
   <body>
@@ -58,12 +59,12 @@
     <main>
       <section class="projects">
         <div class="container">
-          <ul class="filters-buttons list">
-            <li><button class="button button--one" type="button">Усі</button></li>
-            <li><button class="button" type="button">Веб-сайти</button></li>
-            <li><button class="button" type="button">Додатки</button></li>
-            <li><button class="button" type="button">Дизайн</button></li>
-            <li><button class="button" type="button">Маркетинг</button></li>
+          <ul class="filter list">
+            <li><button class="filter__button filter__button--one" type="button">Усі</button></li>
+            <li><button class="filter__button" type="button">Веб-сайти</button></li>
+            <li><button class="filter__button" type="button">Додатки</button></li>
+            <li><button class="filter__button" type="button">Дизайн</button></li>
+            <li><button class="filter__button" type="button">Маркетинг</button></li>
           </ul>
           <ul class="list card-set">
             <li class="card-set__item">
@@ -280,7 +281,9 @@
     <footer class="footer">
       <div class="footer--container container">
         <div class="address-contacts">
-          <a class="logo" href="" lang="en">Web<span class="logo--theme-white">Studio</span></a>
+          <a class="logo logo__footer" href="" lang="en"
+            >Web<span class="logo--theme-white">Studio</span></a
+          >
           <address>
             <ul class="address">
               <li>
