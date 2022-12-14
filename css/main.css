@@ -239,7 +239,6 @@ address {
 }
 
 .caption {
-  width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
@@ -483,7 +482,6 @@ address {
 }
 
 .footer {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--bg-secondary-color);
